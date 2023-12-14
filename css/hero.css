@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header{
+	background-color: orange;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+h1, h2, h3{
+	font-family: 'Whisper', cursive;
+
+}
+header h1{
+	color: antiquewhite;
+	font-size: 50px;
+}
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 10px solid #E5670B;
+}

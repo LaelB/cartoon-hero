@@ -1,6 +1,9 @@
 body{
 	margin: 0;
 	font-family: sans-serif;
+	color: #BF2F09;
+	font-size: 20px;
+
 }
 
 header{
@@ -13,15 +16,58 @@ header{
 
 h1, h2, h3{
 	font-family: 'Whisper', cursive;
+	margin: 0;
 
 }
 header h1{
 	color: antiquewhite;
-	font-size: 50px;
+	font-size: 70px;
+}
+h2{
+	font-size: 45px;
+}
+
+h3{
+	font-size: 25px;
 }
 
 header img{
 	border-radius: 170px;
 	width: 300px;
-	border: 10px solid #E5670B;
+	border: 10px solid #BF2F09;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+
+}
+
+main img{
+	max-width: 100%;
+}
+
+a{
+	color: #BF2F09;
+}
+a:hover{
+	color: antiquewhite;
+	background-color: orange;
+}
+
+#img1{
+	float: left;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+footer{
+	background-color: orange;
+	padding-bottom: 30px;
+}
+
+footer p{
+	text-align: center;
+	padding-top: 20px;
 }
